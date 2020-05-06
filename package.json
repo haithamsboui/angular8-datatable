@@ -1,6 +1,6 @@
 {
   "name": "@haithamsboui/angular8-datatable",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "DataTable component for Angular8 framework",
   "main": "index.js",
   "scripts": {
