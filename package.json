@@ -1,7 +1,7 @@
 {
-  "name": "angular2-datatable",
-  "version": "0.6.0",
-  "description": "DataTable component for Angular2 framework",
+  "name": "@haithamsboui/angular8-datatable",
+  "version": "1.0.0",
+  "description": "DataTable component for Angular8 framework",
   "main": "index.js",
   "scripts": {
     "prebuild": "rimraf lib",
@@ -15,32 +15,33 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mariuszfoltak/angular2-datatable.git"
+    "url": "git+https://github.com/haithamsboui/angular8-datatable.git"
   },
   "keywords": [
     "angular",
-    "angularjs",
-    "angular2",
+    "angular8",
     "ng",
-    "ng2",
+    "ng8",
     "table",
     "pagination",
     "sort",
     "sorting"
   ],
-  "author": "mariuszfoltak@gmail.com",
+  "author": "haithamsbouii@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mariuszfoltak/angular2-datatable/issues"
+    "url": "https://github.com/haithamsboui/angular8-datatable/issues"
   },
-  "homepage": "https://github.com/mariuszfoltak/angular2-datatable#readme",
+  "homepage": "https://github.com/haithamsboui/angular8-datatable#readme",
   "devDependencies": {
-    "@angular/core": "^2.1.0",
-    "@angular/compiler": "^2.1.0",
-    "@angular/common": "^2.1.0",
-    "@angular/platform-browser": "^2.1.0",
-    "@angular/platform-browser-dynamic": "^2.1.0",
-    "@angular/compiler-cli": "^2.1.0",
+    "@angular/common": "^8.0.0",
+    "@angular/compiler": "^8.0.0",
+    "@angular/compiler-cli": "^8.0.0",
+    "@angular/core": "^8.0.0",
+    "@angular/platform-browser": "^8.0.0",
+    "@angular/platform-browser-dynamic": "^8.0.0",
+    "@types/jasmine": "^2.5.35",
+    "@types/lodash": "^4.14.150",
     "core-js": "^2.4.1",
     "http-server": "^0.9.0",
     "jasmine-core": "^2.4.1",
@@ -52,21 +53,19 @@
     "lodash": "^4.0.0",
     "phantomjs-prebuilt": "^2.1.7",
     "remap-istanbul": "^0.7.0",
-    "rxjs": "5.0.0-beta.12",
-    "systemjs": "^0.19.39",
-    "typescript": "~2.1.0",
-    "zone.js": "^0.6.25",
     "rimraf": "^2.5.4",
-    "@types/lodash": "ts2.0",
-    "@types/jasmine": "^2.5.35"
+    "rxjs": "^6.0.0",
+    "systemjs": "^0.19.39",
+    "typescript": "~3.4.0",
+    "zone.js": "^0.6.25"
   },
   "dependencies": {
     "lodash": "^4.0.0"
   },
   "peerDependencies": {
-    "@angular/core": "^2.0.0",
-    "@angular/common": "^2.0.0",
-    "@angular/platform-browser": "^2.0.0",
-    "rxjs": "^5.0.0-beta.12"
+    "@angular/core": "^8.0.0",
+    "@angular/common": "^8.0.0",
+    "@angular/platform-browser": "^8.0.0",
+    "rxjs": "^6.0.0"
   }
 }

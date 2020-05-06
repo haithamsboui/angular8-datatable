@@ -1,4 +1,6 @@
-# Table component with sorting and pagination for Angular2
+It is a forked version of [mariuszfoltak/angular2-datatable](https://github.com/mariuszfoltak/angular2-datatable) updated to Angular 8
+
+# Table component with sorting and pagination for Angular 8
 [![npm version](https://badge.fury.io/js/angular2-datatable.svg)](https://badge.fury.io/js/angular2-datatable)
 [![Build Status](https://travis-ci.org/mariuszfoltak/angular2-datatable.svg?branch=master)](https://travis-ci.org/mariuszfoltak/angular2-datatable)
 [![Code Climate](https://codeclimate.com/github/mariuszfoltak/angular2-datatable/badges/gpa.svg)](https://codeclimate.com/github/mariuszfoltak/angular2-datatable)

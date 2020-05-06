@@ -3,7 +3,7 @@ import {
     IterableDiffer, Output
 } from "@angular/core";
 import * as _ from "lodash";
-import {ReplaySubject} from "rxjs/Rx";
+import {ReplaySubject} from "rxjs";
 
 export interface SortEvent {
     sortBy: string|string[];
@@ -26,7 +26,7 @@ export interface DataEvent {
 })
 export class DataTable implements OnChanges, DoCheck {
 
-    private diff: IterableDiffer;
+    private diff: IterableDiffer<any>;
     @Input("mfData") public inputData: any[] = [];
 
     @Input("mfSortBy") public sortBy: string|string[] = "";
@@ -141,9 +141,9 @@ export class DataTable implements OnChanges, DoCheck {
         let data = this.inputData;
         var sortBy = this.sortBy;
         if (typeof sortBy === 'string' || sortBy instanceof String) {
-            data = _.orderBy(data, this.caseInsensitiveIteratee(<string>sortBy), [this.sortOrder]);
+            data = _.orderBy(data, this.caseInsensitiveIteratee(<string>sortBy), this.sortOrder==='asc');
         } else {
-            data = _.orderBy(data, sortBy, [this.sortOrder]);
+            data = _.orderBy(data, sortBy, this.sortOrder==='asc');
         }
         data = _.slice(data, offset, offset + this.rowsOnPage);
         this.data = data;
