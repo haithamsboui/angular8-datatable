@@ -14,7 +14,7 @@ Check [live demo](http://plnkr.co/edit/PxBaZs?p=preview) in plunker
 ## Installation
 
 ```
-npm i -S angular2-datatable
+npm i @haithamsboui/angular8-datatable
 ```
 
 ## Usage example
@@ -23,7 +23,7 @@ AppModule.ts
 ```typescript
 import {NgModule} from "@angular/core";
 ...
-import {DataTableModule} from "angular2-datatable";
+import {DataTableModule} from "@haithamsboui/angular8-datatable";
 
 @NgModule({
     imports: [
